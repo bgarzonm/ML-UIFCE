@@ -1,25 +1,12 @@
-# Exclude VSCode settings
-.vscode/settings.json
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Exclude VSCode workspace settings
-.vscode/*.code-workspace
+# Local History for Visual Studio Code
+.history/
 
-# Exclude user-specific VSCode tasks
-.vscode/tasks.json
-
-# Exclude user-specific VSCode launch configurations
-.vscode/launch.json
-
-# Exclude user-specific VSCode extensions
-.vscode/extensions.json
-
-# Exclude VSCode Python specific settings
-.vscode/.python-version
-
-# Exclude VSCode Jupyter Notebook specific settings
-.vscode/jupyter.settings.json
-
-# Exclude .vscode folder if it contains personal configuration
-.vscode/*.json
-
-.vscode
+# Built Visual Studio Code Extensions
+*.vsix
