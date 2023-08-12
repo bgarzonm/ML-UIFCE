@@ -26,7 +26,6 @@ This GitHub repository contains the code and resources for Customer Churn Predic
 
    ```bash
 git clone https://github.com/bgarzonm/ML-UIFCE.git
-´´´
 
 3. Navigate to the `models` or `features` directory to explore the Jupyter notebooks
 4. Feel free to adapt the code and models for your own use case.
