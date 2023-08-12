@@ -21,3 +21,5 @@
 
 # Exclude .vscode folder if it contains personal configuration
 .vscode/*.json
+
+.vscode
